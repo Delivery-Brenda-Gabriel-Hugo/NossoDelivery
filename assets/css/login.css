@@ -1,7 +1,4 @@
 .principal {
-  width: 100vw;
-  height: 100vh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,4 +17,12 @@
 .logo img {
   max-width: 25vw;
   max-height: 45vh;
+}
+
+img {
+  width: 512px;
+}
+
+html {
+  background-image: none;
 }

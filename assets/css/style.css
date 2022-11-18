@@ -8,12 +8,17 @@
   --branco: rgb(255, 255, 255);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
 html {
   width: 100vw;
   height: 100vh;
+
   background: url("../img/bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+
+  font-family: 'Montserrat', sans-serif;
 }
 
 main {
