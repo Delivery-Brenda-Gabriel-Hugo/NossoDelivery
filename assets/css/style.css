@@ -1,0 +1,23 @@
+:root {
+  --preto: hsl(0, 0%, 0%);
+  --cinza-escuro: hsl(0, 0%, 12%);
+  --cinza: hsl(60, 0%, 40%);
+  --cinza-claro: hsl(120, 1%, 67%);
+  --vermelho: hsl(358, 72%, 46%);
+  --vermelho-escuro: hsl(359, 85%, 31%);
+  --branco: rgb(255, 255, 255);
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+  background: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  margin: 0 2em 0 2em;
+}
+
+
