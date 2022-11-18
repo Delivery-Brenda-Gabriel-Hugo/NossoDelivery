@@ -1,27 +1,23 @@
-.principal{
-    width: 100vw;
-    height: 100vh;
+.principal {
+  width: 100vw;
+  height: 100vh;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   align-items: center;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.formulario{
-width: 35vw;
-height: 50vh;
-display: flex;
-justify-content: center;
-flex-direction: column;
-gap: 15px;
-
-
+.formulario {
+  width: 35vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.logo img{
-    max-width: 25vw;
-    max-height: 45vh;
-} 
-    
+.logo img {
+  max-width: 25vw;
+  max-height: 45vh;
+}
