@@ -1,6 +1,7 @@
 .principal{
     width: 100vw;
     height: 100vh;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,15 +10,18 @@
 }
 
 .formulario{
-width: 25vw;
+width: 35vw;
 height: 50vh;
 display: flex;
 justify-content: center;
 flex-direction: column;
 gap: 15px;
+
+
 }
 
 .logo img{
     max-width: 25vw;
+    max-height: 45vh;
 } 
     
