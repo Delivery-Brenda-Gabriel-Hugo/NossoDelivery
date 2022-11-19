@@ -1,9 +1,25 @@
-Fonte de imagens
+## Instalação
 
-https://pixabay.com/pt/
+Use o terminal para instalar:
 
-instalar:
+```bash
+  npm i node
+```
+```bash
+  npm install json-server
+```
+```bash
+  npm i live-server
+``` 
 
-Node: https://nodejs.org/en/download/
+## Iniciando o json-server
 
-JSON-SERVER: npm install json-server
+```bash
+  npx json-server --watch db.json
+```
+
+## Inicie o live-server
+
+```bash	
+  Alt+L+O
+```
