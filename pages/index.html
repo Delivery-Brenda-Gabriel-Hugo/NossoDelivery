@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="../assets/css/produtos.css" />
     <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/filtro.css" />
 
     <title>Sushi</title>
   </head>
@@ -26,12 +27,21 @@
     </header>
 
     <main>
-      <!-- <div>
-        <input type="text" name="pesquisa" />
-        <label for="pesquisa">Quer pedir o que?</label>
-      </div>
+      <div class="filtro">
+        <div class="filtro-nome">
+          <input type="text" name="pesquisa" placeholder="Quer pedir o que?"/>
+          <label for="pesquisa"></label>
+        </div>
 
-      <h2>Produtos</h2> -->
+        <div class="categoria">
+          <label for="categoria">Filtre por categoria</label>
+          <select name="cars" id="cars">
+            <option value="petisco">Petisco</option>
+            <option value="pratos">Pratos</option>
+            <option value="bebidas">Bebidas</option>
+          </select>
+        </div>
+      </div>
 
       <section class="produtos">
         <div class="card-produto">
