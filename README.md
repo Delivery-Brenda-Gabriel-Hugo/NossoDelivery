@@ -2,12 +2,15 @@
 
 Use o terminal para instalar:
 
+* Node
 ```bash
   npm i node
 ```
+* Json Server
 ```bash
   npm install json-server
 ```
+* Live Server
 ```bash
   npm i live-server
 ``` 
