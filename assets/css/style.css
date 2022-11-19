@@ -2,6 +2,7 @@
 
 :root {
   --preto: hsl(0, 0%, 0%);
+  --preto-translucido: hsla(0, 0%, 0%, 0.5);
   --cinza-escuro: hsl(0, 0%, 12%);
   --cinza: hsl(60, 0%, 40%);
   --cinza-claro: hsl(120, 1%, 67%);
