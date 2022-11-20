@@ -30,6 +30,10 @@ a {
   cursor: pointer;
 }
 
+a img {
+  margin-right: .5em;
+}
+
 .img-logo {
   align-self: center;
   width: 128px;
