@@ -8,9 +8,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/sushi-icon.png" />
     <link rel="stylesheet" href="../assets/css/reset.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
-    <link rel="stylesheet" href="../assets/css/produtos.css" />
-    <link rel="stylesheet" href="../assets/css/header.css" />
-    <link rel="stylesheet" href="../assets/css/filtro.css" />
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="stylesheet" href="../assets/css/carrinho.css" />
 
     <title>Sushi</title>
   </head>
@@ -27,75 +26,103 @@
     </header>
 
     <main>
-      <div class="filtro">
-        <div class="filtro-nome">
-          <input type="text" name="pesquisa" placeholder="Quer pedir o que?" />
-          <label for="pesquisa"></label>
+      <div>
+        <div class="filtro">
+          <div class="filtro-nome">
+            <input type="text" name="pesquisa" placeholder="Quer pedir o que?" />
+            <label for="pesquisa"></label>
+          </div>
+
+          <div class="categoria">
+            <select name="cars" id="cars">
+              <option value="">Filtre por Categoria</option>
+              <option value="petisco">Petisco</option>
+              <option value="pratos">Pratos</option>
+              <option value="bebidas">Bebidas</option>
+            </select>
+          </div>
         </div>
 
-        <div class="categoria">
-          <select name="cars" id="cars">
-            <option value="">Filtre por Categoria</option>
-            <option value="petisco">Petisco</option>
-            <option value="pratos">Pratos</option>
-            <option value="bebidas">Bebidas</option>
-          </select>
-        </div>
+        <section class="produtos">
+          <div class="card-produto">
+            <div class="separaTextoDaImg">
+              <div class="texto-produto">
+                <h2 class="titulo-produto">HOSSOMAKI MIX</h2>
+                <p class="descricao-produto">Arroz envolto por alga recheado com ovo, pepino, kani, cenoura, alface e gengibre em conserva.</p>
+              </div>
+              <img class="img-produto" src="../assets/img/HOSSOMAKI MIX.webp" alt="imagem do produto" />
+            </div>
+
+            <div class="div-preco">
+              <p class="texto-preco">a partir de <span class="preco-produto">R$ 6.90</span></p>
+              <div class="btn-adiciona-produto">
+                <img class="svg-adiciona" src="../assets/img/svg/+.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="card-produto">
+            <div class="separaTextoDaImg">
+              <div class="texto-produto">
+                <h2 class="titulo-produto">HOSSOMAKI MIX</h2>
+                <p class="descricao-produto">Arroz envolto por alga recheado com ovo, pepino, kani, cenoura, alface e gengibre em conserva.</p>
+              </div>
+              <img class="img-produto" src="../assets/img/HOSSOMAKI MIX.webp" alt="imagem do produto" />
+            </div>
+
+            <div class="div-preco">
+              <p class="texto-preco">a partir de <span class="preco-produto">R$ 6.90</span></p>
+              <div class="btn-adiciona-produto">
+                <img class="svg-adiciona" src="../assets/img/svg/+.svg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="card-produto">
+            <div class="separaTextoDaImg">
+              <div class="texto-produto">
+                <h2 class="titulo-produto">HOSSOMAKI MIX</h2>
+                <p class="descricao-produto">Arroz envolto por alga recheado com ovo, pepino, kani, cenoura, alface e gengibre em conserva.</p>
+              </div>
+              <img class="img-produto" src="../assets/img/HOSSOMAKI MIX.webp" alt="imagem do produto" />
+            </div>
+
+            <div class="div-preco">
+              <p class="texto-preco">a partir de <span class="preco-produto">R$ 6.90</span></p>
+              <div class="btn-adiciona-produto">
+                <img class="svg-adiciona" src="../assets/img/svg/+.svg" />
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
 
-      <section class="produtos">
+      <div class="carrinho">
+        <h2>Pedido</h2>
 
-        <div class="card-produto">
-          <div class="separaTextoDaImg">
-            <div class="texto-produto">
-              <h2 class="titulo-produto">HOSSOMAKI MIX</h2>
-              <p class="descricao-produto">Arroz envolto por alga recheado com ovo, pepino, kani, cenoura, alface e gengibre em conserva.</p>
-            </div>
-            <img class="img-produto" src="../assets/img/HOSSOMAKI MIX.webp" alt="imagem do produto" />
-          </div>
-
-          <div class="div-preco">
-            <p class="texto-preco">a partir de <span class="preco-produto">R$ 6.90</span></p>
-            <div class="btn-adiciona-produto">
-              <img class="svg-adiciona" src="../assets/img/svg/+.svg" />
-            </div>
-          </div>
+        <div class="box">
+          <ul class="itens">
+            <li>1x Hossomaki mix R$ 40,00 <span>20 peças </span></li>
+            <li>2x Temaki Salmão R$ 30,50 <span> 5 peças </span></li>
+            <li>2x Temaki Salmão R$ 30,50 <span> 5 peças </span></li>
+            <li>2x Temaki Salmão R$ 30,50 <span> 5 peças </span></li>
+            <li>2x Temaki Salmão R$ 30,50 <span> 5 peças </span></li>
+            <li>2x Temaki Salmão R$ 30,50 <span> 5 peças </span></li>
+            <li>2x Temaki Salmão R$ 30,50 <span> 5 peças </span></li>
+            <li>2x Temaki Salmão R$ 30,50 <span> 5 peças </span></li>
+            <li>2x Temaki Salmão R$ 30,50 <span> 5 peças </span></li>
+            <li>2x Temaki Salmão R$ 30,50 <span> 5 peças </span></li>
+            <li>2x Temaki Salmão R$ 30,50 <span> 5 peças </span></li>
+          </ul>
         </div>
 
-        <div class="card-produto">
-          <div class="separaTextoDaImg">
-            <div class="texto-produto">
-              <h2 class="titulo-produto">HOSSOMAKI MIX</h2>
-              <p class="descricao-produto">Arroz envolto por alga recheado com ovo, pepino, kani, cenoura, alface e gengibre em conserva.</p>
-            </div>
-            <img class="img-produto" src="../assets/img/HOSSOMAKI MIX.webp" alt="imagem do produto" />
-          </div>
-
-          <div class="div-preco">
-            <p class="texto-preco">a partir de <span class="preco-produto">R$ 6.90</span></p>
-            <div class="btn-adiciona-produto">
-              <img class="svg-adiciona" src="../assets/img/svg/+.svg" />
-            </div>
-          </div>
+        <div class="info">
+          <p>Taxa de Entrega <span>R$ 5,00</span></p>
+          <p>Total do Pedido <span>R$ 70,50</span></p>
         </div>
 
-        <div class="card-produto">
-          <div class="separaTextoDaImg">
-            <div class="texto-produto">
-              <h2 class="titulo-produto">HOSSOMAKI MIX</h2>
-              <p class="descricao-produto">Arroz envolto por alga recheado com ovo, pepino, kani, cenoura, alface e gengibre em conserva.</p>
-            </div>
-            <img class="img-produto" src="../assets/img/HOSSOMAKI MIX.webp" alt="imagem do produto" />
-          </div>
-
-          <div class="div-preco">
-            <p class="texto-preco">a partir de <span class="preco-produto">R$ 6.90</span></p>
-            <div class="btn-adiciona-produto">
-              <img class="svg-adiciona" src="../assets/img/svg/+.svg" />
-            </div>
-          </div>
-        </div>
-      </section>
+        <button class="btnFinalizarPedido">Finalizar Pedido</button>
+      </div>
     </main>
   </body>
 </html>
