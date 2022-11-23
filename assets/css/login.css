@@ -3,14 +3,23 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
+  
   gap: 30px;
-  background: 1d2b3a;
+  
 }
+
 
 .inputBox{
   position: relative;
   width:250px ;
+}
+
+.fundo{
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  
+  
 }
 
 .inputBox input
@@ -62,4 +71,12 @@
 .inputBox input:focus
 {
   border: 1px solid #00dfc4;
+}
+
+.botao{
+  background: #fff;
+  padding: 10px 70px;
+  border-radius: 10px;
+  margin-top: 25px;
+  
 }
