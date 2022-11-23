@@ -1,28 +1,65 @@
-.principal {
+.body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
+  gap: 30px;
+  background: 1d2b3a;
 }
 
-.formulario {
-  width: 35vw;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 15px;
+.inputBox{
+  position: relative;
+  width:250px ;
 }
 
-.logo img {
-  max-width: 25vw;
-  max-height: 45vh;
+.inputBox input
+{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: #1d2b3a;
+  border-radius: 5px;
+  outline: none;
+  color:#fff;
+  font-size: 1em;
+  transition: 0.5s;
 }
 
-img {
-  width: 512px;
+.inputBox span
+{
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  pointer-events: none;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.25);
+  text-transform: uppercase;
+  transition: 0.5s;
 }
 
-html {
-  background-image: none;
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span
+{
+ color: #00dfc4;
+ transform: translateX(10px) translateY(-7px);
+ font-size: 0.65em;
+ padding: 0 10px;
+ background: #1d2b3a;
+ border-left: 1px solid #00dfc4;
+ border-right: 1px solid #00dfc4;
+ letter-spacing: 0.2em;
+}
+.inputBox:nth-child(2) input:valid~span,
+.inputBox:nth-child(2) input:focus~span
+{
+ background: #00dfc4;
+ color: #1d2b3a;
+ border-radius: 2px;
+}
+
+.inputBox input:valid,
+.inputBox input:focus
+{
+  border: 1px solid #00dfc4;
 }
