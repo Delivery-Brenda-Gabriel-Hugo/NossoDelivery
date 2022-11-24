@@ -8,31 +8,35 @@
     <link rel="stylesheet" href="../assets/css/reset.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="../assets/css/login.css" />
-    <title>Document</title>
+    <!-- adicionar icone na aba do navegador -->
+    <title>Document</title> <!-- colocar titulo na pagina -->
   </head>
 
-  <body>
-    <main class="principal">
-      <div class="logo">
-        <img src="" alt="logo login" />
+  <body> <!-- o body ja esta configurado no arquivo style.css -->
+    
+    <main class="principal"> <!-- essa classe nao esta sendo usada -->
+
+      <!-- essa div nao esta sendo usada -->
+      <div class="logo"> 
+        <img src="" alt="" />
       </div>
-      <div class="fundo">
-      <form class="body">
-   
+
+      <!-- <form class="body"> tag form com classe body ?? brincou -->
+      <form action="">
         <div class="inputBox">
-        <input name="user" type="text" required="required" id="input-user"/>
-        <span>Seu nome</span>
-      </div>
-      <div class="inputBox">
-        <input name="user" type="password" required="required" id="input-user"/>
-        <span>Senha</span>
-      </div>
-      <button class="botao">Acessar</button>
- 
+          <input name="user" type="text" required="required" id="input-user" autocomplete="off" />
+          <span>Seu nome</span>
+        </div>
+        <div class="inputBox">
+          <input name="user" type="password" required="required" id="input-user" />
+          <span>Senha</span>
+        </div>
+        <button class="botao">Acessar</button>
       </form>
-    </div>
     </main>
-    <script src="../controller/teste.js"></script>
-    <script src="/service/login.js"></script>
+
+    <!-- esse script nao esta sendo usado
+      <script src="../controller/teste.js"></script>
+    <script src="/service/login.js"></script> -->
   </body>
 </html>
