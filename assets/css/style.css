@@ -27,4 +27,21 @@ main {
   margin: 0 5em 0 5em;
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--cinza-muito-claro) var(--cinza-escuro);
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--cinza-escuro);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--cinza-muito-claro);
+  border-radius: 20px;
+}
 
