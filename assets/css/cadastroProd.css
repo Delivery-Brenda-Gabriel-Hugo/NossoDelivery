@@ -1,93 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat:wght@200&family=Roboto&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-}
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat:wght@200&family=Roboto&display=swap");
 
 body {
-    background-image: url(/assets/img/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    color: white;
-    min-height: 100vh;
-    max-width: 100%;
-}
-
-.logo {
-    width: 120px;
-    border-radius: 999px;
+  background-color: transparent;
 }
 
 .formClass {
-    width: 420px;
-    background-color: #131212ba;
+  width: 420px;
+  background-color: #131212ba;
+  border-radius: 20px;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .area {
-    height: 100px;
+  height: 100px;
 }
 
 .black {
-    background-color: #13121269;
+  background-color: #13121269;
 }
 
 .btnSucess {
-    width: 130px;
-    color: #ff0043;
-    border: 1px solid #ff0043;
+  width: 130px;
+  color: #ff0043;
+  border: 1px solid #ff0043;
 }
 
 .btnSucess:hover {
-    background-color: #ff0043;
-    color: #fff;
-    border: 1px solid #ff0043;
+  background-color: #ff0043;
+  color: #fff;
+  border: 1px solid #ff0043;
 }
 
 .input-bx {
-    position: relative;
-    width: 320px;
+  position: relative;
+  width: 320px;
 }
 
 .input-bx input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #e0dede;
-    border-radius: 5px;
-    outline: none;
-    font-size: 1rem;
-    transition: 0.5s;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e0dede;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  transition: 0.5s;
 }
 
 .input-bx span {
-    position: absolute;
-    left: 0;
-    padding: 10px;
-    font-size: 0.80rem;
-    color: #dfe2e6;
-    text-transform: uppercase;
-    pointer-events: none;
-    transition: 0.5s;
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  font-size: 0.8rem;
+  color: #dfe2e6;
+  text-transform: uppercase;
+  pointer-events: none;
+  transition: 0.5s;
 }
 
-.input-bx input:valid~span,
-.input-bx input:focus~span {
-    color: #fbfbfe;
-    transform: translateX(10px) translateY(-7px);
-    font-size: 0.65rem;
-    font-weight: 600;
-    padding: 0 10px;
-    background: #19171734;
-    letter-spacing: 0.1rem;
+.input-bx input:valid ~ span,
+.input-bx input:focus ~ span {
+  color: #fbfbfe;
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 0 10px;
+  background: #19171734;
+  letter-spacing: 0.1rem;
 }
 
 .input-bx input:valid,
 .input-bx input:focus {
-    color: #ffffff;
-    border: 2px solid #201e1e9a;
+  color: #ffffff;
+  border: 2px solid #201e1e9a;
 }
