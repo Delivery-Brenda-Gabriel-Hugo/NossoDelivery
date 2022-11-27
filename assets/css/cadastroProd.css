@@ -20,7 +20,7 @@ body {
 }
 
 .formClass {
-    width: 380px;
+    width: 420px;
     background-color: #131212ba;
 }
 
@@ -38,6 +38,7 @@ body {
 }
 
 .btnSucess {
+    width: 130px;
     color: #ff0043;
     border: 1px solid #ff0043;
 }
@@ -81,12 +82,12 @@ body {
     font-size: 0.65rem;
     font-weight: 600;
     padding: 0 10px;
-    background: #13121269;
+    background: #19171734;
     letter-spacing: 0.1rem;
 }
 
 .input-bx input:valid,
 .input-bx input:focus {
     color: #ffffff;
-    border: 2px solid #13121269;
+    border: 2px solid #201e1e9a;
 }
