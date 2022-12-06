@@ -1,28 +1,52 @@
-.principal {
+/* faixa vermelha */
+
+header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100vw;
+  height: 128px;
+  margin-top: 6em;
+}
+.faixa {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 50px;
+  background-color: var(--vermelho);
+}
+
+.img-logo {
+  align-self: center;
+  width: 128px;
+  height: 128px;
+  border-radius: 999px;
+
+  margin-left: 5em;
+}
+.formulario{
+  display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.formulario {
-  width: 35vw;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
+  min-height: 100vh;
   flex-direction: column;
-  gap: 15px;
+  gap: 30px;
+}
+.inputBox{
+  position: relative;
+  width: 250px;
+}
+.inputBox input{
+  width:100%;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: #1d2b3a;
+  border-radius: 5px;
+}
+main{
+ 
+  
 }
 
-.logo img {
-  max-width: 25vw;
-  max-height: 45vh;
-}
 
-img {
-  width: 512px;
-}
-
-html {
-  background-image: none;
-}
