@@ -21,12 +21,12 @@
     
 
     <div class="maindiv">
-      <p class="text">USUÁRIO</p>
+      <span class="text">USUÁRIO</p>
       <div class="inputs">
         <div class="Fields">
           <div class="Fieldset">
            
-            <input type="text" class="Before-FS" required="" autocomplete="off">
+            <input type="text" id="email" class="Before-FS" required="" autocomplete="off">
 
             <h1 class="Fs-H"><span>Email</span></h1>
             <label class="placeholder">Email</label>
@@ -34,14 +34,18 @@
         </div>
         <div class="Fields">
           <div class="Fieldset">
-            <input type="password" class="Before-FS" required="" autocomplete="off">
+            <input type="password" id="senha" class="Before-FS" required="" autocomplete="off">
             <h1 class="Fs-H"><span>Senha</span></h1>
             <label class="placeholder">Senha</label>
           </div>
         </div>
-   
-      <button>Acessar</button>
+        
+      </div>
+      <button onclick="logar()">Acessar</button>
+     <a href="/pages/cadastroUsuario.html"> <p>Crie sua conta</p></a>
+    </div>
 
+    <script src="/controller/login.js"></script>
     <script src="../controller/teste.js"></script>
   </body>
 </html>
