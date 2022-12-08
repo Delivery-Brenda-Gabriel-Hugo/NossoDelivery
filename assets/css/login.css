@@ -27,7 +27,7 @@ header {
 }
 
 .maindiv{
-  display: flex;
+  
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -78,6 +78,9 @@ input{
 .Fs-H{
   opacity: 0;
   transition:0.2s;
+}
+.Fields{
+margin-top: 50px;
 }
 .Fieldset > h1{
   font:1em normal;
@@ -147,6 +150,8 @@ button{
   color: #131111;
   outline: none;
   min-width: 88px;
+  margin-bottom: 50px;
+  
 
 }
 .text{
@@ -155,4 +160,11 @@ button{
   flex-direction: column;
   row-gap: 20px;
   
+}
+
+.a{
+ text-decoration: none;
+ color: #f7f5f5;
+
+ 
 }
