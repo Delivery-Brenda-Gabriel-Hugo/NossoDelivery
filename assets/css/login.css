@@ -168,3 +168,13 @@ button{
 
  
 }
+
+#msgError{
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 4px;
+  display: none;
+}

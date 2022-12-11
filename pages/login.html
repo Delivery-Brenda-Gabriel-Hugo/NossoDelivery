@@ -22,26 +22,27 @@
 
     <div class="maindiv">
       <h3 class="text">USUÁRIO</h3>
+      <div id='msgError'></div>
       <div class="inputs">
         <div class="Fields">
           <div class="Fieldset">
            
-            <input type="text" id="email" class="Before-FS" required="" autocomplete="off">
+            <input type="text" id='usuario'  class="Before-FS" required="" autocomplete="off">
 
             <h1 class="Fs-H"><span>Email</span></h1>
-            <label class="placeholder">Email</label>
+            <label class="placeholder" id='userLabel'for='usuario'>Email</label>
           </div>
         </div>
         <div class="Fields">
           <div class="Fieldset">
             <input type="password" id="senha" class="Before-FS" required="" autocomplete="off">
             <h1 class="Fs-H"><span>Senha</span></h1>
-            <label class="placeholder">Senha</label>
+            <label class="placeholder"  id='senhaLabel' for='senha'>Senha</label>
           </div>
         </div>
         
       </div>
-      <button onclick="logar()">Acessar</button>
+      <button onclick="entrar(),logar()">Acessar</button>
      <a class="a" href="/pages/cadastroUsuario.html"> <p>Crie sua conta</p></a>
     </div>
 
