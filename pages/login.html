@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/login.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="faixa">
+      <img class="img-logo" src="../assets/img/logo.jpg" alt="logo" />
+      <nav class="menu">
+        
+    </header>
+
+    
+
+    <div class="maindiv">
+      <h3 class="text">USUÁRIO</h3>
+      <div id='msgError'></div>
+      <div class="inputs">
+        <div class="Fields">
+          <div class="Fieldset">
+           
+            <input type="text" id='usuario'  class="Before-FS" required="" autocomplete="off">
+
+            <h1 class="Fs-H"><span>Email</span></h1>
+            <label class="placeholder" id='userLabel'for='usuario'>Email</label>
+          </div>
+        </div>
+        <div class="Fields">
+          <div class="Fieldset">
+            <input type="password" id="senha" class="Before-FS" required="" autocomplete="off">
+            <h1 class="Fs-H"><span>Senha</span></h1>
+            <label class="placeholder"  id='senhaLabel' for='senha'>Senha</label>
+          </div>
+        </div>
+        
+      </div>
+      <button onclick="entrar(),logar()">Acessar</button>
+     <a class="a" href="../pages/cadastro-usuario.html"> <p>Crie sua conta</p></a>
+    </div>
+
+    <script src="/controller/login.js"></script>
+    <script src="../controller/teste.js"></script>
+  </body>
+</html>
