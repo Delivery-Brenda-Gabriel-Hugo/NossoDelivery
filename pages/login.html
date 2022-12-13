@@ -18,20 +18,35 @@
         
     </header>
 
-    <main>
-      <form class="formulario">
-        <div class="inputBox">
-          <input name="user" type="text" required="required" id="input-user"/>
-          <span>Seu nome</span>
+    
+
+    <div class="maindiv">
+      <h3 class="text">USUÁRIO</h3>
+      <div id='msgError'></div>
+      <div class="inputs">
+        <div class="Fields">
+          <div class="Fieldset">
+           
+            <input type="text" id='usuario'  class="Before-FS" required="" autocomplete="off">
+
+            <h1 class="Fs-H"><span>Email</span></h1>
+            <label class="placeholder" id='userLabel'for='usuario'>Email</label>
+          </div>
         </div>
-        <div class="inputBox">
-          <input name="user" type="password" required="required" id="input-user"/>
-          <span>Senha</span>
+        <div class="Fields">
+          <div class="Fieldset">
+            <input type="password" id="senha" class="Before-FS" required="" autocomplete="off">
+            <h1 class="Fs-H"><span>Senha</span></h1>
+            <label class="placeholder"  id='senhaLabel' for='senha'>Senha</label>
+          </div>
         </div>
-        <button type="submit">Acessar</button>
-      </form>
-  
-    </main>
+        
+      </div>
+      <button onclick="entrar(),logar()">Acessar</button>
+     <a class="a" href="/pages/cadastroUsuario.html"> <p>Crie sua conta</p></a>
+    </div>
+
+    <script src="/controller/login.js"></script>
     <script src="../controller/teste.js"></script>
   </body>
 </html>
